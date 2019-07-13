@@ -1,0 +1,26 @@
+git config --global user.name 'sakib shahriar'
+git config --global user.email 'sakibnx@gmail.com'
+
+git init //to initialize git repository
+
+touch <filename> //to create a file
+
+git add <filename> //to add a file to source tree
+git add .  //to add all file to source tree
+git.add *.<filetype> // to add all file of a specific file type
+
+git status //to check the source tree
+
+git rm --chached <filename> //to remove a file from the source tree
+
+git commit -m <comment> //to commit any changes
+
+git branch <branchname> //to create a branch
+git checkout <branchname> //to switch to a branch
+git merge <branchanme> //to merge to a branch
+
+git remote //to see the current remote repository
+git remote add origin <repository link> // to add remote repository
+git push -u origin master //to push in remote
+
+git pull <repository link> // to pull
